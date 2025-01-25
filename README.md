@@ -1,29 +1,115 @@
-Boca Juniors API 💛💙
 
-A RESTful API dedicated to Club Atlético Boca Juniors. This API provides comprehensive data about matches, tournaments, players, and much more. It’s designed specifically to power my front-end project, where users can register and track the matches they’ve attended at the stadiums.
+# Boca Juniors API
 
-Features 🚀
-Matches: Get detailed information about past and upcoming games, including scores, dates, and opponents.
-Players: Retrieve player profiles, including stats, positions, and career details.
-Register Match Attendance: Integrate with the front-end app to allow users to log matches they've watched live in the stadiums.
+[![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/navendu-pottekkat/awesome-readme?include_prereleases)](https://img.shields.io/github/v/release/navendu-pottekkat/awesome-readme?include_prereleases)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/navendu-pottekkat/awesome-readme)](https://img.shields.io/github/issues-pr/navendu-pottekkat/awesome-readme)
+[![GitHub](https://img.shields.io/github/license/navendu-pottekkat/awesome-readme)](https://img.shields.io/github/license/navendu-pottekkat/awesome-readme)
 
-and more!
+The **Boca Juniors API** is a RESTful API designed for developers and HINCHAS. It provides detailed information about **Club Atlético Boca Juniors**, including matches, tournaments, players, etc. <br> It was created to power my **front-end project**, where users can register the matches they attended live at the stadium and track their unforgettable experiences at the stadiums.
 
-Usage 💻
-This API is built with flexibility in mind, making it easy to integrate with your projects. It’s especially suited for the front-end app where fans can create a personal log of their unforgettable moments cheering for Boca Juniors.
 
-Endpoints Example 📚
-/seasons - Retrieve all seasons data.
-/competitions - Retrieve all competitions data.
-/teams - Retrieve all rivals teams data.
-/stadia - Retrieve all stadiums data.
-/games - Retrieve all games data.
-/players - Retrieve all players data.
+# Table of Contents
 
-Tech Stack 🛠️
-Backend: Laravel 11
-Database: MySQL
-Authentication: Sanctum for protected routes.
+- [Installation](#installation)  
+- [Usage](#usage)  
+- [Development](#development)  
+- [Contribute](#contribute)  
+- [License](#license)  
 
-Feel free to contribute! Fork this project, suggest improvements, or add new features. 🙌💙💛
+
+# Installation
+[(Back to top)](#table-of-contents)
+
+1. Clone the repository:  
+```shell
+git clone https://github.com/your-username/boca-juniors-api.git
+```
+
+2. Navigate to the project folder:
+```shell
+cd boca-juniors-api
+```
+
+3. Install dependencies:
+```shell
+composer install
+```
+
+4. Set up the environment file and update the .env file with your database credentials and other settings:
+```shell
+cp .env.example .env
+```
+
+5. Run database migrations:
+```shell
+php artisan migrate
+```
+
+6. Start the development server:
+```shell
+php artisan serve
+```
+
+
+
+
+# Usage
+[(Back to top)](#table-of-contents)
+
+*api/seasons* - Retrieve all seasons data.
+<br>
+*api/competitions* - Retrieve all competitions data.
+<br>
+*api/teams* - Retrieve all rivals teams data.
+<br>
+*api/stadia* - Retrieve all stadiums data.
+<br>
+*api/games* - Retrieve all games data.
+<br>
+*api/players* - Retrieve all players data.
+
+
+# Development
+[(Back to top)](#table-of-contents)
+
+Follow these steps to set up a development environment:
+
+1. Fork the repository. <br>
+2. Clone your forked repository locally:
+
+```shell
+git clone https://github.com/your-username/boca-juniors-api.git
+```
+3. Create a new branch for your feature or bugfix:
+
+```shell
+git checkout -b feature/your-feature-name
+```
+
+4. Make your changes, then commit and push:
+
+```shell
+git add .
+git commit -m "Add your message here"
+git push origin feature/your-feature-name
+```
+
+5. Open a pull request in the main repository.
+
+
+# Contribute
+[(Back to top)](#table-of-contents)
+
+Contributions are welcome! Feel free to open issues or submit pull requests for enhancements or bug fixes.
+
+
+# License
+[(Back to top)](#table-of-contents)
+
+This project is licensed under the MIT License.
+
+
+
+
+
 
